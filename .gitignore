@@ -50,3 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# debuild stuff
+**/debian/.debhelper
+**/debian/elbedebtestapp
+**/debian/*substvars
+**/debian/*debhelper*
+**/debian/files
+elbedebtestapp_*-*.*
+elbedebtestapp-*_*-*.*
+**/obj-*/**

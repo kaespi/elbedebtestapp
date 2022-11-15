@@ -1,0 +1,14 @@
+Source: elbedebtestapp
+Section: devel
+Priority: optional
+Maintainer: Kaspar Giger <kg@kgmw.ch>
+Build-Depends: cmake, debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Homepage: http://www.kgmw.ch
+
+Package: elbedebtestapp
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: This is a test application for use in ELBE
+  This is the extended description of the test application.
